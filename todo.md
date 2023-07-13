@@ -1,19 +1,26 @@
 # To Do List
 
-- [] write down todo
-- [] setup repo
-- [] setup webpack
-- [] setup babel
-- [] set up linting
-- [] Figure out what the api call returns
-- [] General Design
-    - [] What information do we want to present
+- [x] write down todo
+- [x] setup repo
+- [x] setup webpack
+- [x] setup babel
+- [x] set up linting
+- [x] Figure out what the api call returns
+- [x] General Design
+  - [x] What information do we want to present
+    - icon for weather
+      - if degree is between a certain thing background change?
+    - Temp both f and c
+    - feels like both f and c
+    - humidity %
+    - wind both in mph and km/h
+    - gif to represent the weather
 - [] Code Design
-    - [] api call
-    - [] function to handle json returned
-- [] Webpage Design
-    - [] look at examples for inspiration
-    - [] Figure out how we want to display the information
-        - [] graphics
-        - [] weather details
-        - [] background images
+  - [] api call
+  - [] function to handle json returned
+- [x] Webpage Design
+  - [x] look at examples for inspiration
+  - [x] Figure out how we want to display the information
+    - [x] graphics
+    - [x] weather details
+    - [x] background images
