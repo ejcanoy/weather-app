@@ -1,17 +1,58 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <h1>weather app</h1>
-      <input type="text">
-    </header>
-    <main></main>
-    <footer></footer>
-    <script src="main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>Giphy Weather</h1>
+    </div>
+    <div id="search-items">
+      <input type="text" />
+      <button>Search</button>
+
+      <label class="toggle-switch">
+        <input type="checkbox" id="toggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+  </header>
+  <main>
+
+    <div class="weather-container">
+      <img src="" alt="">
+      <div>
+        <span id="weather"></span>
+      </div>
+      <div>
+        <span id="location"></span>
+      </div>
+      <div id="stats">
+        <div id="stats-container">
+          <span id="degrees"></span>
+          <div class="side-stats">
+            <p id="feels-like"></p>
+            <p id="wind"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gif-container">
+      <label  for=""><h2 id="gif-label"></h2></label>
+      <img id="gif" src="" alt="">
+    </div>
+  </main>
+  <footer></footer>
+  <script src="main.js"></script>
+</body>
+
 </html>

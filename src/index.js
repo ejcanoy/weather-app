@@ -1,9 +1,11 @@
-const name = "James";
+import './styles.css';
+import UI from './UI';
 
-const person = { first: name };
 
-console.log(person);
 
-const sayHelloLinting = (fName) => {
-  console.log(`Hello linting, ${fName}`);
-};
+const currentUI = new UI();
+
+
+
+
+

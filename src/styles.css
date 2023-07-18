@@ -1,0 +1,145 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #88BDBC;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #112D32;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#search-items {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 50%;
+    height: 25px;
+    border: 2px solid #112D32;
+    border-radius: 5px;
+}
+
+button {
+    color: #FFFFFF;
+    margin-right: 5px;
+    height: 30px;
+    border: 2px solid #112D32;
+    background-color: #88BDBC;
+    border-radius: 5px;
+}
+
+button:focus {
+    background-color: #FFFFFF;
+    color: #88BDBC;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+  .toggle-switch input {
+    display: none;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "°F";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  input:checked + .slider {
+    background-color: #88BDBC;
+  }
+
+  input:checked + .slider:before {
+    content: "°C";
+    transform: translateX(26px);
+  }
+
+
+  main {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  .weather-container {
+    color: #FFFFFF;
+    margin-right: 15px;
+  }
+
+  h2 {
+    font-weight: 500;
+    color: #FFFFFF;
+  }
+
+  #weather {
+    font-size: 2rem;
+  }
+
+  #stats {
+    display: inline;
+  }
+
+  .side-stats {
+    display: inline-block;
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+
+  #stats {
+    display: flex;
+    font-size: 0.75rem;
+  }
+
+  #location {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  #degrees {
+    font-size: 3rem;
+    display: inline-block;
+  }
+
+  
